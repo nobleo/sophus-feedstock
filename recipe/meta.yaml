@@ -11,7 +11,7 @@ source:
   sha256: 3f3098bdac2c74d42a921dbfb0e5e4b23601739e35a1c1236c2807c399da960c
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
@@ -21,10 +21,10 @@ requirements:
     - cmake
     - ninja  # [not win]
   host:
-    - eigen >=3.3
+    - eigen >=3.4,<5
 
   run:
-    - eigen >=3.3
+    - eigen >=3.4,<5
 
 test:
   commands:
