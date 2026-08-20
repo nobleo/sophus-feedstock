@@ -24,6 +24,7 @@ requirements:
     - ninja  # [not win]
   host:
     - eigen >=3.4
+    - eigen-abi-devel >=3.4
 
   run:
     - {{ pin_compatible('eigen', max_pin='x') }}
